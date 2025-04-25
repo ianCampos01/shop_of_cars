@@ -20,13 +20,13 @@ Projeto desenvolvido com foco na apresentação de carros clássicos disponívei
 
 ## 📷 Preview do Projeto
 
-![Campos Auto](./caminho-da-sua-imagem.png)
+![Campos Auto](./assets/img/imagem_2025-04-20_221838490.png)
 
 ---
 
 ## 🌐 Link de Contato
 
-[Clique aqui para me encontrar no LinkedIn](https://www.linkedin.com/in/seu-usuario-aqui)  
+[Clique aqui para me encontrar no LinkedIn](hhttps://www.linkedin.com/in/ian-campos-124b4a355/)  
 💬 Vamos conversar sobre carros, código ou projetos incríveis!
 
 ---
