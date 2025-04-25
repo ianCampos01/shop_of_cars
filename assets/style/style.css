@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+#logoPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #007bff;
+    padding: 2rem 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Título */
+#titlePage {
+    margin: 3rem 0 2rem;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #3582f6;
+    font-weight: 700;
+}
+
+/* Container principal para os cards */
+#carContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Alinha os cards à esquerda */
+    gap: 2rem; /* Espaçamento entre os cards */
+    padding: 0 2rem;
+}
+
+/* Estilos dos cards */
+#firstCar,
+#secondCar {
+    width: 220px;
+    background-color: #007bff;
+    border-radius: 20px;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.9s ease, box-shadow 0.3s ease;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    filter: blur(3px);
+}
+
+#firstCar:hover,
+#secondCar:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 123, 255, 0.3);
+    filter: blur(0);
+}
+
+/* Informações do carro */
+#inforCar,
+#inforCar2 {
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    line-height: 1.5;
+}
+
+#inforCar #name,
+#inforCar #model,
+#inforCar2 #name2,
+#inforCar2 #model2 {
+    display: block;
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+    #firstCar,
+    #secondCar {
+        width: 90%;
+    }
+
+    #titlePage {
+        font-size: 2rem;
+    }
+
+    #carContainer {
+        justify-content: center;
+    }
+}
+
+#botaoCustom1,
+#botaoCustom2{
+    margin-top: 1rem;
+    background-color: #28a745;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+#botaoCustom1 :hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+#botaoCustom2 :hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+/* Novos cards com mesmo estilo */
+#thirdCar,
+#fourthCar{
+    width: 220px;
+    background-color: #007bff;
+    border-radius: 20px;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.9s ease, box-shadow 0.3s ease;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    filter: blur(3px);
+}
+
+#thirdCar:hover,
+#fourthCar:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 123, 255, 0.3);
+    filter: blur(0);
+}
+
+/* Infos */
+#inforCar3,
+#inforCar4{
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    line-height: 1.5;
+}
+#inforCar3 #name3,
+#inforCar3 #model3,
+#inforCar4 #name4,
+#inforCar4 #model4{
+    display: block;
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Botões */
+#botaoCustom3,
+#botaoCustom4{
+    margin-top: 1rem;
+    background-color: #28a745;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#botaoCustom1:hover,
+#botaoCustom2:hover,
+#botaoCustom3:hover,
+#botaoCustom4:hover{
+    background-color: #218838;
+    transform: scale(1.05);
+}
