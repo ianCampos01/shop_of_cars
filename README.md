@@ -20,7 +20,7 @@ Projeto desenvolvido com foco na apresentação de carros clássicos disponívei
 
 ## 📷 Preview do Projeto
 
-![Campos Auto](./caminho-da-sua-imagem.png)
+![Campos Auto](./assets/img/imagem_2025-04-20_221838490.png)
 
 ---
 
